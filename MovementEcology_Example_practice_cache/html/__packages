@@ -1,0 +1,9 @@
+plyr
+dplyr
+magrittr
+timechange
+lubridate
+sp
+sf
+mapview
+ggplot2
