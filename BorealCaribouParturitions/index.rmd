@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "Boreal Caribou parturition graphs"
 author: "Ophélie Couriot"
 date: "`r Sys.Date()`"
 output: html_document
@@ -9,7 +9,21 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This site contains graphs of movement rate (black line) and Net Squared Displacement (NSD: the distance from the very first location, blue line) through time, for female boreal caribou from the North Slave and South Slave regions. The vertical line in red corresponds to the calving date estimated using a movement rate parturition model.
+
+Those graphs are interactive: you can hover over to get the corresponding date, Zoom-in and Zoom-out and even compare both movement rate and NSD at the same time. 
+
 
 # North Slave
 
-- [2017](get_interactive_plots_NS2017.html)
+```{r, results = "asis", echo = FALSE}
+for(y in 2017:2023)
+cat(paste0("- [",y,"](get_interactive_plots_NS",y,".html)\n"))
+```
+
+# South Slave
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2006:2023)
+cat(paste0("- [",y,"](get_interactive_plots_SS",y,".html)\n"))
+```
