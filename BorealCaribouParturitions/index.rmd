@@ -14,23 +14,53 @@ This site contains graphs of movement rate (black line) and Net Squared Displace
 Those graphs are interactive: you can hover over to get the corresponding date, Zoom-in and Zoom-out and even compare both movement rate and NSD at the same time. 
 
 
-# North Slave
+# North Slave Region
 
 ```{r, results = "asis", echo = FALSE}
 for(y in 2017:2023)
 cat(paste0("- [",y,"](get_interactive_plots_NS",y,".html)\n"))
 ```
 
-# South Slave
+# South Slave Region
 
-```{r, results = "asis", echo = FALSE}
-for(y in 2006:2023)
-cat(paste0("- [",y,"](get_interactive_plots_SS",y,".html)\n"))
-```
-
-# Mackenzie study area
+### Mackenzie study area
 
 ```{r, results = "asis", echo = FALSE}
 for(y in 2015:2023)
 cat(paste0("- [",y,"](get_interactive_plots_Mackenzie",y,".html)\n"))
+```
+
+### Big Island study area
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2013:2022)
+cat(paste0("- [",y,"](get_interactive_plots_BigIsland",y,".html)\n"))
+```
+
+### Buffalo Lake study area
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2015:2023)
+cat(paste0("- [",y,"](get_interactive_plots_BuffaloLake",y,".html)\n"))
+```
+
+### Cameron Hills study area
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2006:2011)
+cat(paste0("- [",y,"](get_interactive_plots_CameronHills",y,".html)\n"))
+```
+
+### Hay River Lowlands study area
+
+```{r, results = "asis", echo = FALSE}
+for(y in c(2008:2011,2013:2023))
+cat(paste0("- [",y,"](get_interactive_plots_HayRiverLowlands",y,".html)\n"))
+```
+
+### Pine Point study area
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2015:2023)
+cat(paste0("- [",y,"](get_interactive_plots_HayRiverLowlands",y,".html)\n"))
 ```
