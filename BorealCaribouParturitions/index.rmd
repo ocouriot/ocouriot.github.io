@@ -27,3 +27,10 @@ cat(paste0("- [",y,"](get_interactive_plots_NS",y,".html)\n"))
 for(y in 2006:2023)
 cat(paste0("- [",y,"](get_interactive_plots_SS",y,".html)\n"))
 ```
+
+# Mackenzie study area
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2015:2023)
+cat(paste0("- [",y,"](get_interactive_plots_Mackenzie",y,".html)\n"))
+```
