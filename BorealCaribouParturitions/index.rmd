@@ -65,3 +65,10 @@ cat(paste0("- [",y,"](get_interactive_plots_HayRiverLowlands",y,".html)\n"))
 for(y in 2015:2023)
 cat(paste0("- [",y,"](get_interactive_plots_HayRiverLowlands",y,".html)\n"))
 ```
+
+# Dehcho Region
+
+```{r, results = "asis", echo = FALSE}
+for(y in 2007:2023)
+cat(paste0("- [",y,"](get_interactive_plots_Dehcho",y,".html)\n"))
+```
