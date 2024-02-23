@@ -63,7 +63,7 @@ cat(paste0("- [",y,"](get_interactive_plots_HayRiverLowlands",y,".html)\n"))
 
 ```{r, results = "asis", echo = FALSE}
 for(y in 2015:2023)
-cat(paste0("- [",y,"](get_interactive_plots_HayRiverLowlands",y,".html)\n"))
+cat(paste0("- [",y,"](get_interactive_plots_PinePoint",y,".html)\n"))
 ```
 
 # Dehcho Region
