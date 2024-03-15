@@ -72,3 +72,7 @@ cat(paste0("- [",y,"](get_interactive_plots_PinePoint",y,".html)\n"))
 for(y in 2007:2023)
 cat(paste0("- [",y,"](get_interactive_plots_Dehcho",y,".html)\n"))
 ```
+
+# Map of Calving for North Slave Region and Mackenzie Area
+
+- [Map](NorthSlave_Mackenzie_Map.html)
