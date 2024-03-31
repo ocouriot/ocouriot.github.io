@@ -76,3 +76,8 @@ cat(paste0("- [",y,"](get_interactive_plots_Dehcho",y,".html)\n"))
 # Map of Calving for North Slave Region and Mackenzie Area
 
 - [Map](NorthSlave_Mackenzie_Map.html)
+
+# Non pregnant, likely pregnant and uncertain
+
+- [North Slave Region](get_interactive_plots_non_parturient_NS.html)
+- [Mackenzie Area](get_interactive_plots_non_parturient_SS.html)
